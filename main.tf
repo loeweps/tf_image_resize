@@ -6,9 +6,9 @@ terraform {
     }
   }
 }
-
+#Provider change to us-east-1
 provider "aws" {
-  region = "us-east-2"
+  region = "us-east-1"
 }
 
 #Variable to hold bucket_names
